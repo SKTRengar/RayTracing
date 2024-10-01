@@ -1,0 +1,10 @@
+^C:\PROGRAMDATA\NVIDIA CORPORATION\OPTIX SDK 8.0.0\SDK\CMAKEFILES\DF74B200BBDF65DF26FDAAB0A28247B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK" "-BC:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/OptiX-Samples.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

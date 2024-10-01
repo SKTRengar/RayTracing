@@ -1,0 +1,58 @@
+^C:\PROGRAMDATA\NVIDIA CORPORATION\OPTIX SDK 8.0.0\SDK\CUDA\CAMERA.CU
+setlocal
+cd "C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixWhitted\CMakeFiles\optixWhitted.dir\__\cuda"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_camera.cu.ptx" -D "generated_cubin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_camera.cu.ptx.cubin.txt" -D "generated_fatbin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_camera.cu.ptx.fatbin.txt" -P "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_camera.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAMDATA\NVIDIA CORPORATION\OPTIX SDK 8.0.0\SDK\CUDA\GEOMETRY.CU
+setlocal
+cd "C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixWhitted\CMakeFiles\optixWhitted.dir\__\cuda"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_geometry.cu.ptx" -D "generated_cubin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_geometry.cu.ptx.cubin.txt" -D "generated_fatbin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_geometry.cu.ptx.fatbin.txt" -P "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_geometry.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAMDATA\NVIDIA CORPORATION\OPTIX SDK 8.0.0\SDK\CUDA\SHADING.CU
+setlocal
+cd "C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixWhitted\CMakeFiles\optixWhitted.dir\__\cuda"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/."
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_shading.cu.ptx" -D "generated_cubin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_shading.cu.ptx.cubin.txt" -D "generated_fatbin_file:STRING=C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/lib/ptx/./optixWhitted_generated_shading.cu.ptx.fatbin.txt" -P "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_shading.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROGRAMDATA\NVIDIA CORPORATION\OPTIX SDK 8.0.0\SDK\OPTIXWHITTED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK" "-BC:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK" --check-stamp-file "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

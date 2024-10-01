@@ -1,0 +1,3 @@
+﻿  Building NVCC ptx file lib/ptx/optixSphere_generated_optixSphere.cu.ptx
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixSphere/CMakeLists.txt
+  optixSphere.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixSphere.exe

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_camera.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_geometry.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeFiles/optixWhitted.dir/__/cuda/optixWhitted_generated_shading.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeLists.txt

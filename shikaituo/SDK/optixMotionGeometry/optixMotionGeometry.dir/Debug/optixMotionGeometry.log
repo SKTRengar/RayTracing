@@ -1,0 +1,4 @@
+﻿  Building NVCC ptx file lib/ptx/optixMotionGeometry_generated_optixMotionGeometry.cu.ptx
+  Building NVCC (Device) object lib/ptx/Debug/optixMotionGeometry_generated_vertices.cu.obj
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixMotionGeometry/CMakeLists.txt
+  optixMotionGeometry.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixMotionGeometry.exe

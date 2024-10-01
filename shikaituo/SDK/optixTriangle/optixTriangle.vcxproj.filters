@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixTriangle\optixTriangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixTriangle\optixTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixTriangle\optixTriangle.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\optixTriangle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\lib\ptx\optixTriangle_generated_optixTriangle.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{9EF7B828-69D2-36A7-B29A-C97997ECA36B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A5120AF3-2B4C-35D8-8301-B463A51937AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{D84431D6-5F51-3014-85B3-90111054742D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{993DC61F-1F20-3FDB-AA6F-B70E6792507A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

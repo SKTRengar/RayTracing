@@ -1,0 +1,7 @@
+﻿  Building NVCC ptx file lib/ptx/sutil_generated_camera.cu.ptx
+  Building NVCC ptx file lib/ptx/sutil_generated_geometry.cu.ptx
+  Building NVCC ptx file lib/ptx/sutil_generated_shading.cu.ptx
+  Building NVCC ptx file lib/ptx/sutil_generated_sphere.cu.ptx
+  Building NVCC ptx file lib/ptx/sutil_generated_whitted.cu.ptx
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/sutil/CMakeLists.txt
+  sutil_7_sdk.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\sutil_7_sdk.dll

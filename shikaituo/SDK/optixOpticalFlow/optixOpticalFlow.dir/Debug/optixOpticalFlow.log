@@ -1,0 +1,3 @@
+﻿  Building NVCC (Device) object lib/ptx/Debug/optixOpticalFlow_generated_optixOpticalFlow.cu.obj
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixOpticalFlow/CMakeLists.txt
+  optixOpticalFlow.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixOpticalFlow.exe

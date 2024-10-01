@@ -1,0 +1,3 @@
+﻿  Building NVCC ptx file lib/ptx/optixCutouts_generated_optixCutouts.cu.ptx
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixCutouts/CMakeLists.txt
+  optixCutouts.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixCutouts.exe

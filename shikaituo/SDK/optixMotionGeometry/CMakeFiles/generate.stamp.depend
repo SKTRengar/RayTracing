@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixMotionGeometry/CMakeFiles/optixMotionGeometry.dir/optixMotionGeometry_generated_optixMotionGeometry.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixMotionGeometry/CMakeFiles/optixMotionGeometry.dir/optixMotionGeometry_generated_vertices.cu.obj.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixMotionGeometry/CMakeLists.txt

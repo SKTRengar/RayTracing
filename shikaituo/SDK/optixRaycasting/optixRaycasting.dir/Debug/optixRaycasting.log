@@ -1,0 +1,4 @@
+﻿  Building NVCC ptx file lib/ptx/optixRaycasting_generated_optixRaycasting.cu.ptx
+  Building NVCC (Device) object lib/ptx/Debug/optixRaycasting_generated_optixRaycastingKernels.cu.obj
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixRaycasting/CMakeLists.txt
+  optixRaycasting.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixRaycasting.exe

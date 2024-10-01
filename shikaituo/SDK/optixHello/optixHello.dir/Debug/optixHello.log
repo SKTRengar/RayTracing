@@ -1,0 +1,3 @@
+﻿  Building NVCC ptx file lib/ptx/optixHello_generated_draw_solid_color.cu.ptx
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixHello/CMakeLists.txt
+  optixHello.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixHello.exe

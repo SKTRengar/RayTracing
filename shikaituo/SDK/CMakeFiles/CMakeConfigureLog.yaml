@@ -1,0 +1,505 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024-09-27 14:43:20。
+      节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.01
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024-09-27 14:43:23。
+      节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.24
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-2z01qo"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-2z01qo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-2z01qo'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_8ea5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:25。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-2z01qo\\cmTC_8ea5b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8ea5b.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-2z01qo\\Debug\\”。
+          正在创建目录“cmTC_8ea5b.dir\\Debug\\cmTC_8ea5b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8ea5b.dir\\Debug\\cmTC_8ea5b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ea5b.dir\\Debug\\\\" /Fd"cmTC_8ea5b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ea5b.dir\\Debug\\\\" /Fd"cmTC_8ea5b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-2z01qo\\Debug\\cmTC_8ea5b.exe" /INCREMENTAL /ILK:"cmTC_8ea5b.dir\\Debug\\cmTC_8ea5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-2z01qo/Debug/cmTC_8ea5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-2z01qo/Debug/cmTC_8ea5b.lib" /MACHINE:X64  /machine:x64 cmTC_8ea5b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8ea5b.vcxproj -> C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-2z01qo\\Debug\\cmTC_8ea5b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8ea5b.dir\\Debug\\cmTC_8ea5b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8ea5b.dir\\Debug\\cmTC_8ea5b.tlog\\cmTC_8ea5b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-2z01qo\\cmTC_8ea5b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.23
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-ih8464"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-ih8464"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-ih8464'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_71e59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:27。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-ih8464\\cmTC_71e59.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_71e59.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-ih8464\\Debug\\”。
+          正在创建目录“cmTC_71e59.dir\\Debug\\cmTC_71e59.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_71e59.dir\\Debug\\cmTC_71e59.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71e59.dir\\Debug\\\\" /Fd"cmTC_71e59.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71e59.dir\\Debug\\\\" /Fd"cmTC_71e59.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-ih8464\\Debug\\cmTC_71e59.exe" /INCREMENTAL /ILK:"cmTC_71e59.dir\\Debug\\cmTC_71e59.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-ih8464/Debug/cmTC_71e59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-ih8464/Debug/cmTC_71e59.lib" /MACHINE:X64  /machine:x64 cmTC_71e59.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_71e59.vcxproj -> C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-ih8464\\Debug\\cmTC_71e59.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_71e59.dir\\Debug\\cmTC_71e59.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_71e59.dir\\Debug\\cmTC_71e59.tlog\\cmTC_71e59.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-ih8464\\cmTC_71e59.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.20
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:89 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMake/ConfigCompilerFlags.cmake:118 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:136 (include)"
+    checks:
+      - "Performing Test OPTIX_CXX_ACCEPTS_NO_CPP"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-di6o5l"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-di6o5l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/../SDK/CMake"
+    buildResult:
+      variable: "OPTIX_CXX_ACCEPTS_NO_CPP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-di6o5l'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_54918.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:29。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\cmTC_54918.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_54918.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\Debug\\”。
+          正在创建目录“cmTC_54918.dir\\Debug\\cmTC_54918.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_54918.dir\\Debug\\cmTC_54918.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D OPTIX_CXX_ACCEPTS_NO_CPP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_54918.dir\\Debug\\\\" /Fd"cmTC_54918.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -Wno-cpp "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D OPTIX_CXX_ACCEPTS_NO_CPP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_54918.dir\\Debug\\\\" /Fd"cmTC_54918.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -Wno-cpp "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\src.cxx"
+        cl : 命令行 error D8021: 无效的数值参数“/Wno-cpp” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\cmTC_54918.vcxproj]
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\cmTC_54918.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\cmTC_54918.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wno-cpp” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-di6o5l\\cmTC_54918.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "support/GLFW/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-g6d6t3"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-g6d6t3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /DWIN32 /D_WINDOWS /W3 /MP /W3 /wd4355 /wd4996 /wd4800 /w34101 /w34189 /w34018 /w34389"
+      CMAKE_MODULE_PATH: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/../SDK/CMake;C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/support/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-g6d6t3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_41e3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:31。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\cmTC_41e3a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_41e3a.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\Debug\\”。
+          正在创建目录“cmTC_41e3a.dir\\Debug\\cmTC_41e3a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_41e3a.dir\\Debug\\cmTC_41e3a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e3a.dir\\Debug\\\\" /Fd"cmTC_41e3a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41e3a.dir\\Debug\\\\" /Fd"cmTC_41e3a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\src.c"
+        C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\cmTC_41e3a.vcxproj]
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\cmTC_41e3a.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\cmTC_41e3a.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-g6d6t3\\cmTC_41e3a.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.67
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "support/GLFW/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-w65qdq"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-w65qdq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /DWIN32 /D_WINDOWS /W3 /MP /W3 /wd4355 /wd4996 /wd4800 /w34101 /w34189 /w34018 /w34389"
+      CMAKE_MODULE_PATH: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/../SDK/CMake;C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/support/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-w65qdq'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_0eb55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:32。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\cmTC_0eb55.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0eb55.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\Debug\\”。
+          正在创建目录“cmTC_0eb55.dir\\Debug\\cmTC_0eb55.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0eb55.dir\\Debug\\cmTC_0eb55.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eb55.dir\\Debug\\\\" /Fd"cmTC_0eb55.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eb55.dir\\Debug\\\\" /Fd"cmTC_0eb55.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\Debug\\cmTC_0eb55.exe" /INCREMENTAL /ILK:"cmTC_0eb55.dir\\Debug\\cmTC_0eb55.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-w65qdq/Debug/cmTC_0eb55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-w65qdq/Debug/cmTC_0eb55.lib" /MACHINE:X64  /machine:x64 cmTC_0eb55.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\cmTC_0eb55.vcxproj]
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\cmTC_0eb55.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\cmTC_0eb55.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-w65qdq\\cmTC_0eb55.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.91
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "support/GLFW/CMakeLists.txt:68 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-9crmot"
+      binary: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-9crmot"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /DWIN32 /D_WINDOWS /W3 /MP /W3 /wd4355 /wd4996 /wd4800 /w34101 /w34189 /w34018 /w34389"
+      CMAKE_MODULE_PATH: "C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/../SDK/CMake;C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/support/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-9crmot'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2e03b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024-09-27 14:43:34。
+        节点 1 上的项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\cmTC_2e03b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2e03b.dir\\Debug\\”。
+          正在创建目录“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\Debug\\”。
+          正在创建目录“cmTC_2e03b.dir\\Debug\\cmTC_2e03b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2e03b.dir\\Debug\\cmTC_2e03b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e03b.dir\\Debug\\\\" /Fd"cmTC_2e03b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e03b.dir\\Debug\\\\" /Fd"cmTC_2e03b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4355 /wd4996 /wd4800 /errorReport:queue  /w34101 /w34189 /w34018 /w34389 "C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\Debug\\cmTC_2e03b.exe" /INCREMENTAL /ILK:"cmTC_2e03b.dir\\Debug\\cmTC_2e03b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-9crmot/Debug/cmTC_2e03b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMakeFiles/CMakeScratch/TryCompile-9crmot/Debug/cmTC_2e03b.lib" /MACHINE:X64  /machine:x64 cmTC_2e03b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\cmTC_2e03b.vcxproj]
+        已完成生成项目“C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\cmTC_2e03b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\cmTC_2e03b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 8.0.0\\SDK\\CMakeFiles\\CMakeScratch\\TryCompile-9crmot\\cmTC_2e03b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.94
+        
+      exitCode: 1
+...

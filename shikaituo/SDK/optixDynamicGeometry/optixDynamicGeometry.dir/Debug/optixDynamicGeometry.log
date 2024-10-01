@@ -1,0 +1,4 @@
+﻿  Building NVCC ptx file lib/ptx/optixDynamicGeometry_generated_optixDynamicGeometry.cu.ptx
+  Building NVCC (Device) object lib/ptx/Debug/optixDynamicGeometry_generated_vertices.cu.obj
+  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixDynamicGeometry/CMakeLists.txt
+  optixDynamicGeometry.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixDynamicGeometry.exe
