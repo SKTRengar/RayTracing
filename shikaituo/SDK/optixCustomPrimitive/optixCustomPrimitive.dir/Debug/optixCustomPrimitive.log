@@ -1,3 +1,0 @@
-﻿  Building NVCC ptx file lib/ptx/optixCustomPrimitive_generated_optixCustomPrimitive.cu.ptx
-  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixCustomPrimitive/CMakeLists.txt
-  optixCustomPrimitive.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixCustomPrimitive.exe

@@ -1,5 +1,0 @@
-﻿  Building NVCC ptx file lib/ptx/optixWhitted_generated_camera.cu.ptx
-  Building NVCC ptx file lib/ptx/optixWhitted_generated_geometry.cu.ptx
-  Building NVCC ptx file lib/ptx/optixWhitted_generated_shading.cu.ptx
-  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixWhitted/CMakeLists.txt
-  optixWhitted.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixWhitted.exe

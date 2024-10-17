@@ -1,4 +1,0 @@
-﻿  Building NVCC ptx file lib/ptx/optixModuleCreateAbort_generated_optixModuleCreateAbort.cu.ptx
-  Building NVCC ptx file lib/ptx/optixModuleCreateAbort_generated_optixModuleCreateAbort_ch.cu.ptx
-  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixModuleCreateAbort/CMakeLists.txt
-  optixModuleCreateAbort.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixModuleCreateAbort.exe

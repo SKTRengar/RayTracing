@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/CMake/FindCUDA/run_nvcc.cmake
-C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixDynamicMaterials/CMakeFiles/optixDynamicMaterials.dir/optixDynamicMaterials_generated_optixDynamicMaterials.cu.ptx.depend
-C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixDynamicMaterials/CMakeLists.txt

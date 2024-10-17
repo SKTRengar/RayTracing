@@ -1,4 +1,0 @@
-﻿  Building NVCC ptx file lib/ptx/optixBoundValues_generated_optixBoundValues.cu.ptx
-  Building NVCC ptx file lib/ptx/optixBoundValues_generated_optixBoundValues_ch.cu.ptx
-  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixBoundValues/CMakeLists.txt
-  optixBoundValues.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixBoundValues.exe

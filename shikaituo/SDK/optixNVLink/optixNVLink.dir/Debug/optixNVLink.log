@@ -1,4 +1,0 @@
-﻿  Building NVCC (Device) object lib/ptx/Debug/optixNVLink_generated_optixNVLink_kernels.cu.obj
-  Building NVCC ptx file lib/ptx/optixNVLink_generated_optixNVLink.cu.ptx
-  Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 8.0.0/SDK/optixNVLink/CMakeLists.txt
-  optixNVLink.vcxproj -> C:\ProgramData\NVIDIA Corporation\OptiX SDK 8.0.0\SDK\bin\Debug\optixNVLink.exe
