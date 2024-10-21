@@ -97,12 +97,12 @@ public class CloudGenerator : MonoBehaviour
         }
         BuildMatrixAndBlock();
         var support = SystemInfo.supportsInstancing;
-        Debug.Log("Instance rendering" + support);
+        //Debug.Log("Instance rendering" + support);
         // 打印每个云朵的生成位置
-        for (int i = 0; i < instanceCount; i++)
-        {
-            Debug.Log($"Cloud {i} Position: {matrices[i].m03}, {matrices[i].m13}, {matrices[i].m23}");
-        }
+        // for (int i = 0; i < instanceCount; i++)
+        // {
+        //     Debug.Log($"Cloud {i} Position: {matrices[i].m03}, {matrices[i].m13}, {matrices[i].m23}");
+        // }
         Graphics.DrawMeshInstanced(instanceMesh, 0, instanceMat, matrices, instanceCount,block,UnityEngine.Rendering.ShadowCastingMode.On, false);
     }
 }
